@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+    background-color: steelblue;
+}
+
+#myForm {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 50%;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 3px 20px;
+    margin: 20px 52px;
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+}
+
+
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+h1:hover {
+    display: block;
+    background-color: tomato;
+    color: white;
+    padding: 5px 10px;
+}
+
+a:active {
+    font-size: 1.2em;
+    background-color: tomato;
+    display: block;
+    color: #FFF;
+}
+
+:focus {
+    background-color: lightblue;
+    border: 1px solid rgba(12, 198, 255, 0.719);
+}
+
