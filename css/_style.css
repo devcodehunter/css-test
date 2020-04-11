@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    background-color: lightblue;
+}
+:target {
+    background-color: tomato;
+    color: #fff;
+}
+
 .container {
     width: 78%;
     margin: 0 auto;

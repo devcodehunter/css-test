@@ -18,7 +18,40 @@ ul li {
     font-weight: bold;
 }
 
-ul:first-child {
-    background-color: aqua;
-    color: white;
+a {
+    text-decoration: none;
 }
+
+li:nth-child(-n+5) {
+    background-color: aqua;
+    color: #fff;
+}
+
+.box {
+    float: left;
+    height: 70px;
+    width: 70px;
+    background-color: blueviolet;
+    margin-left: 10px;
+    text-align: center;
+}
+
+div:nth-last-of-type(-n+2){
+    color: #fff;
+}
+
+
+p:only-of-type {
+    color: red;
+}
+
+
+
+
+
+
+.clear {
+    content: 'table';
+    clear: both;
+}
+

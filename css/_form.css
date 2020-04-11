@@ -1,0 +1,40 @@
+.myForm {
+    background-color: aqua;
+    width: 60%;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+input[type="text"], input[type="email"] {
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+label {
+    margin-left: 5px;
+    color: rgb(59, 59, 59);
+}
+
+input[type="radio"]:first-child {
+    margin-left: 0;
+}
+input[type="submit"] {
+    margin-top: 10px;
+    display: inline-block;
+    width: 51%;
+    height: 26px;
+    border: none;
+    background-color: tomato;
+    border-radius: 4px;
+}
+
+input[type="text"], input[type="email"]:enabled {
+    background-color: lightgoldenrodyellow;
+}
+
+input[type="radio"]:checked + label {
+    font-size: 1.5em;
+}
