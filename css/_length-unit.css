@@ -17,6 +17,9 @@ h1 {
 }
 
 p {
-    width: 600px;
     background-color: lightblue;
+}
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
 }
