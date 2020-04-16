@@ -12,8 +12,8 @@ p {
 }
 
 h1 {
-    text-shadow: 0 -1px #767676 , 0 -2px #262626, 0 0 8px rgb(62,106,168);
-    color: #dfdfdf;
+    text-shadow: 0 -1px #767676 , 0 -2px #262626, 0 0 3px rgb(62,106,168);
+    color: #b42525;
 }
 
 p {
@@ -22,4 +22,13 @@ p {
 .text-overflow {
     white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shad {
+    background-color:white; 
+}
+
+.word-wrap {
+    word-wrap: nowrap;
 }
